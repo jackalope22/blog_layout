@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1
+}
+.header{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.leftcolumn{
+    float: left;
+    width: 70%;
+}
+.rightcolumn{
+    float: right;
+    width: 28%;
+    padding-left: 20px;
+}
+.fakeimg{
+    background-color: #aaaaaa;
+    width: 80%;
+    padding: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #dddddd;
+    margin-top: 20px;
+}
