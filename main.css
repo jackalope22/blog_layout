@@ -9,6 +9,13 @@ body{
     text-align: center;
     background: white;
 }
+.navigation a{
+    font-family: 'Courier New';
+    color: rgb(96, 106, 138);
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .leftcolumn{
     float: left;
     width: 70%;
@@ -27,7 +34,8 @@ body{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
-}.row:after{
+}
+.row:after{
     content: "";
     display: table;
     clear: both;
@@ -37,4 +45,19 @@ body{
     text-align: center;
     background: #dddddd;
     margin-top: 20px;
+}
+.post-title{
+    background-color: rgb(96, 106, 138);
+    position: absolute;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+.blogpost{
+    max-width: 100%;
+}
+.post-text{
+    padding-left: 5px;
+    padding-right: 5px;
 }
